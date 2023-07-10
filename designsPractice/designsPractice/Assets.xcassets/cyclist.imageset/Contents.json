@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "df4bfbcf6cfa871701fb39b55a569b60-ciclista-silueta-vista-lateral.png",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

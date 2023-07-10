@@ -8,7 +8,6 @@
 import SwiftUI
 
 struct DragGesturing: View {
-    // Creas un @State para el offset
     @State private var dragOffset = CGSize.zero
 
     var body: some View {

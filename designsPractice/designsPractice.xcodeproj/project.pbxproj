@@ -16,6 +16,11 @@
 		D3B41F102A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F0F2A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift */; };
 		D3B41F1E2A5C1D6800E314D9 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F1D2A5C1D6800E314D9 /* DragGesture.swift */; };
 		D3B41F1F2A5C1D6800E314D9 /* DragGesture.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F1D2A5C1D6800E314D9 /* DragGesture.swift */; };
+		D3B41F222A5C63DD00E314D9 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F212A5C63DD00E314D9 /* Rotation.swift */; };
+		D3B41F232A5C63DD00E314D9 /* Rotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F212A5C63DD00E314D9 /* Rotation.swift */; };
+		D3B41F262A5C65F000E314D9 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F252A5C65F000E314D9 /* CircularProgress.swift */; };
+		D3B41F272A5C65F000E314D9 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F252A5C65F000E314D9 /* CircularProgress.swift */; };
+		D3B41F282A5C65F000E314D9 /* CircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B41F252A5C65F000E314D9 /* CircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +52,8 @@
 		D3B41F0D2A5C1CE800E314D9 /* designsPracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designsPracticeUITests.swift; sourceTree = "<group>"; };
 		D3B41F0F2A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = designsPracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D3B41F1D2A5C1D6800E314D9 /* DragGesture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGesture.swift; sourceTree = "<group>"; };
+		D3B41F212A5C63DD00E314D9 /* Rotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rotation.swift; sourceTree = "<group>"; };
+		D3B41F252A5C65F000E314D9 /* CircularProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircularProgress.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +104,8 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3B41F242A5C65C800E314D9 /* CircularProgress */,
+				D3B41F202A5C63C300E314D9 /* Rotation */,
 				D3B41F1C2A5C1D4400E314D9 /* DragGesture */,
 				D3B41EF22A5C1CE700E314D9 /* designsPracticeApp.swift */,
 				D3B41EF42A5C1CE700E314D9 /* ContentView.swift */,
@@ -137,6 +146,22 @@
 				D3B41F1D2A5C1D6800E314D9 /* DragGesture.swift */,
 			);
 			path = DragGesture;
+			sourceTree = "<group>";
+		};
+		D3B41F202A5C63C300E314D9 /* Rotation */ = {
+			isa = PBXGroup;
+			children = (
+				D3B41F212A5C63DD00E314D9 /* Rotation.swift */,
+			);
+			path = Rotation;
+			sourceTree = "<group>";
+		};
+		D3B41F242A5C65C800E314D9 /* CircularProgress */ = {
+			isa = PBXGroup;
+			children = (
+				D3B41F252A5C65F000E314D9 /* CircularProgress.swift */,
+			);
+			path = CircularProgress;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -269,7 +294,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B41F262A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3B41EF52A5C1CE700E314D9 /* ContentView.swift in Sources */,
+				D3B41F222A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3B41EF32A5C1CE700E314D9 /* designsPracticeApp.swift in Sources */,
 				D3B41F1E2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 			);
@@ -280,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3B41F042A5C1CE800E314D9 /* designsPracticeTests.swift in Sources */,
+				D3B41F272A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,7 +315,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3B41F282A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3B41F0E2A5C1CE800E314D9 /* designsPracticeUITests.swift in Sources */,
+				D3B41F232A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3B41F102A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift in Sources */,
 				D3B41F1F2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 			);
