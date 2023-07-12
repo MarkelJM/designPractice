@@ -37,6 +37,8 @@
 		D3BDF8FA2A5F03D30057D882 /* MovingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */; };
 		D3BDF8FD2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8FC2A5F1BA50057D882 /* EscalarAnimation.swift */; };
 		D3BDF8FE2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8FC2A5F1BA50057D882 /* EscalarAnimation.swift */; };
+		D3BDF9012A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9002A5F1C8A0057D882 /* ProgressCircleAnimation.swift */; };
+		D3BDF9022A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9002A5F1C8A0057D882 /* ProgressCircleAnimation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -78,6 +80,7 @@
 		D3BDF8F42A5F03960057D882 /* ScrollAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAnimation.swift; sourceTree = "<group>"; };
 		D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjects.swift; sourceTree = "<group>"; };
 		D3BDF8FC2A5F1BA50057D882 /* EscalarAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EscalarAnimation.swift; sourceTree = "<group>"; };
+		D3BDF9002A5F1C8A0057D882 /* ProgressCircleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleAnimation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF8FF2A5F1C720057D882 /* ProgressCircle */,
 				D3BDF8FB2A5F1B700057D882 /* EscalaAnimation */,
 				D3BDF8F72A5F03C30057D882 /* MovingObjects */,
 				D3BDF8F32A5F03790057D882 /* ScrollAnimation */,
@@ -250,6 +254,14 @@
 				D3BDF8FC2A5F1BA50057D882 /* EscalarAnimation.swift */,
 			);
 			path = EscalaAnimation;
+			sourceTree = "<group>";
+		};
+		D3BDF8FF2A5F1C720057D882 /* ProgressCircle */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9002A5F1C8A0057D882 /* ProgressCircleAnimation.swift */,
+			);
+			path = ProgressCircle;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -391,6 +403,7 @@
 				D3BDF8FD2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF8E22A5F01C00057D882 /* Shake.swift in Sources */,
 				D3B41F222A5C63DD00E314D9 /* Rotation.swift in Sources */,
+				D3BDF9012A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
 				D3BDF8E92A5F02900057D882 /* AnimatedMenuView.swift in Sources */,
 				D3BDF8E62A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41EF32A5C1CE700E314D9 /* designsPracticeApp.swift in Sources */,
@@ -420,6 +433,7 @@
 				D3BDF8FE2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF8E32A5F01C00057D882 /* Shake.swift in Sources */,
 				D3B41F232A5C63DD00E314D9 /* Rotation.swift in Sources */,
+				D3BDF9022A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
 				D3BDF8EA2A5F02900057D882 /* AnimatedMenuView.swift in Sources */,
 				D3BDF8E72A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41F102A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift in Sources */,

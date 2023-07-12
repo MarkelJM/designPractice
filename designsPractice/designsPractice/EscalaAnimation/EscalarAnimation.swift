@@ -6,7 +6,9 @@
 //
 
 import SwiftUI
-
+/*
+ En este ejemplo, cuando el usuario realiza un gesto de "pellizco" sobre la imagen, el MagnificationGesture ajusta el valor de magnifyBy en tiempo real, lo que a su vez cambia el scaleEffect de la imagen y la amplía o reduce.
+ */
 struct Magnify: View {
     @GestureState private var magnifyBy = CGFloat(1.0)
 
