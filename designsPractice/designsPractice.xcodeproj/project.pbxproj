@@ -31,6 +31,10 @@
 		D3BDF8EE2A5F02C40057D882 /* ProgressBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8EC2A5F02C40057D882 /* ProgressBarView.swift */; };
 		D3BDF8F12A5F031E0057D882 /* TextAppearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F02A5F031E0057D882 /* TextAppearAnimation.swift */; };
 		D3BDF8F22A5F031E0057D882 /* TextAppearAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F02A5F031E0057D882 /* TextAppearAnimation.swift */; };
+		D3BDF8F52A5F03960057D882 /* ScrollAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F42A5F03960057D882 /* ScrollAnimation.swift */; };
+		D3BDF8F62A5F03960057D882 /* ScrollAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F42A5F03960057D882 /* ScrollAnimation.swift */; };
+		D3BDF8F92A5F03D30057D882 /* MovingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */; };
+		D3BDF8FA2A5F03D30057D882 /* MovingObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +73,8 @@
 		D3BDF8E82A5F02900057D882 /* AnimatedMenuView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedMenuView.swift; sourceTree = "<group>"; };
 		D3BDF8EC2A5F02C40057D882 /* ProgressBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressBarView.swift; sourceTree = "<group>"; };
 		D3BDF8F02A5F031E0057D882 /* TextAppearAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextAppearAnimation.swift; sourceTree = "<group>"; };
+		D3BDF8F42A5F03960057D882 /* ScrollAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollAnimation.swift; sourceTree = "<group>"; };
+		D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovingObjects.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,8 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF8F72A5F03C30057D882 /* MovingObjects */,
+				D3BDF8F32A5F03790057D882 /* ScrollAnimation */,
 				D3BDF8EF2A5F03080057D882 /* TextAnimation */,
 				D3BDF8EB2A5F02AB0057D882 /* ProgressBar */,
 				D3BDF8E42A5F01EB0057D882 /* FlipCard */,
@@ -214,6 +222,22 @@
 				D3BDF8F02A5F031E0057D882 /* TextAppearAnimation.swift */,
 			);
 			path = TextAnimation;
+			sourceTree = "<group>";
+		};
+		D3BDF8F32A5F03790057D882 /* ScrollAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF8F42A5F03960057D882 /* ScrollAnimation.swift */,
+			);
+			path = ScrollAnimation;
+			sourceTree = "<group>";
+		};
+		D3BDF8F72A5F03C30057D882 /* MovingObjects */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF8F82A5F03D30057D882 /* MovingObjects.swift */,
+			);
+			path = MovingObjects;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -346,6 +370,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BDF8F92A5F03D30057D882 /* MovingObjects.swift in Sources */,
+				D3BDF8F52A5F03960057D882 /* ScrollAnimation.swift in Sources */,
 				D3BDF8F12A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F262A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3BDF8ED2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
@@ -372,6 +398,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3BDF8FA2A5F03D30057D882 /* MovingObjects.swift in Sources */,
+				D3BDF8F62A5F03960057D882 /* ScrollAnimation.swift in Sources */,
 				D3BDF8F22A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F282A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3BDF8EE2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
