@@ -10,7 +10,7 @@ import SwiftUI
  Esta animación hace que el botón "vibre" o se sacuda de izquierda a derecha cuando se pulsa. Para lograr esto, se crea un efecto de geometría personalizado (Shake) que mueve la vista de izquierda a derecha (CGAffineTransform(translationX:y:)) en función del número de "sacudidas" (shakes). Cuando se pulsa el botón, se incrementa el número de "sacudidas", lo que activa la animación.
  */
 
-struct Shake: View {
+struct ShakeAnimation: View {
     @State private var shakes: Double = 0
 
     var body: some View {
@@ -41,6 +41,6 @@ struct Shake: GeometryEffect {
 
 struct Shake_Previews: PreviewProvider {
     static var previews: some View {
-        Shake()
+        ShakeAnimation()
     }
 }
