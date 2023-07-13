@@ -45,6 +45,8 @@
 		D3BDF90A2A5F1D7C0057D882 /* RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9082A5F1D7C0057D882 /* RotationEffect.swift */; };
 		D3BDF90D2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */; };
 		D3BDF90E2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */; };
+		D3BDF9122A5FFD720057D882 /* Movingeffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9112A5FFD720057D882 /* Movingeffect.swift */; };
+		D3BDF9132A5FFD720057D882 /* Movingeffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9112A5FFD720057D882 /* Movingeffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,7 @@
 		D3BDF9042A5F1D2A0057D882 /* BouncingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingEffect.swift; sourceTree = "<group>"; };
 		D3BDF9082A5F1D7C0057D882 /* RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffect.swift; sourceTree = "<group>"; };
 		D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangingEffect.swift; sourceTree = "<group>"; };
+		D3BDF9112A5FFD720057D882 /* Movingeffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movingeffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,6 +143,7 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF9102A5FFD5F0057D882 /* MovingEffect */,
 				D3BDF90B2A5FFA2B0057D882 /* ColorChangeShape */,
 				D3BDF9072A5F1D650057D882 /* RotationEffect */,
 				D3BDF9032A5F1D0C0057D882 /* AumentarDisminuirEfecto */,
@@ -300,6 +304,14 @@
 			path = ColorChangeShape;
 			sourceTree = "<group>";
 		};
+		D3BDF9102A5FFD5F0057D882 /* MovingEffect */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9112A5FFD720057D882 /* Movingeffect.swift */,
+			);
+			path = MovingEffect;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -438,6 +450,7 @@
 				D3BDF8ED2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41EF52A5C1CE700E314D9 /* ContentView.swift in Sources */,
 				D3BDF8FD2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
+				D3BDF9122A5FFD720057D882 /* Movingeffect.swift in Sources */,
 				D3BDF8E22A5F01C00057D882 /* Shake.swift in Sources */,
 				D3B41F222A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3BDF9012A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
@@ -471,6 +484,7 @@
 				D3BDF8EE2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41F0E2A5C1CE800E314D9 /* designsPracticeUITests.swift in Sources */,
 				D3BDF8FE2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
+				D3BDF9132A5FFD720057D882 /* Movingeffect.swift in Sources */,
 				D3BDF8E32A5F01C00057D882 /* Shake.swift in Sources */,
 				D3B41F232A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3BDF9022A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
