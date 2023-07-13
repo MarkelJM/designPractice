@@ -61,6 +61,12 @@
 		D3BDF92B2A6016400057D882 /* DegradadoTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9292A6016400057D882 /* DegradadoTransition.swift */; };
 		D3BDF92E2A6016BD0057D882 /* HorizontalTransitionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF92D2A6016BD0057D882 /* HorizontalTransitionTransition.swift */; };
 		D3BDF92F2A6016BD0057D882 /* HorizontalTransitionTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF92D2A6016BD0057D882 /* HorizontalTransitionTransition.swift */; };
+		D3BDF9322A6018FB0057D882 /* FadeAndSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9312A6018FB0057D882 /* FadeAndSlideTransition.swift */; };
+		D3BDF9332A6018FB0057D882 /* FadeAndSlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9312A6018FB0057D882 /* FadeAndSlideTransition.swift */; };
+		D3BDF9362A6019750057D882 /* ScaleV2Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9352A6019750057D882 /* ScaleV2Transition.swift */; };
+		D3BDF9372A6019750057D882 /* ScaleV2Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9352A6019750057D882 /* ScaleV2Transition.swift */; };
+		D3BDF93A2A6019A50057D882 /* CombinedV2Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9392A6019A50057D882 /* CombinedV2Transition.swift */; };
+		D3BDF93B2A6019A50057D882 /* CombinedV2Transition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9392A6019A50057D882 /* CombinedV2Transition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -114,6 +120,9 @@
 		D3BDF9252A6015EC0057D882 /* ScaleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
 		D3BDF9292A6016400057D882 /* DegradadoTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DegradadoTransition.swift; sourceTree = "<group>"; };
 		D3BDF92D2A6016BD0057D882 /* HorizontalTransitionTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HorizontalTransitionTransition.swift; sourceTree = "<group>"; };
+		D3BDF9312A6018FB0057D882 /* FadeAndSlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FadeAndSlideTransition.swift; sourceTree = "<group>"; };
+		D3BDF9352A6019750057D882 /* ScaleV2Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleV2Transition.swift; sourceTree = "<group>"; };
+		D3BDF9392A6019A50057D882 /* CombinedV2Transition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CombinedV2Transition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +173,9 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF9382A60198D0057D882 /* TransitionCombinedV2 */,
+				D3BDF9342A6019420057D882 /* TransitionScale-2 */,
+				D3BDF9302A6018E20057D882 /* TransitionFadeAndSlide */,
 				D3BDF92C2A6016A00057D882 /* TransitionHorizontal */,
 				D3BDF9282A60162B0057D882 /* TransitionDegradado */,
 				D3BDF9242A6015D10057D882 /* TransitionScale */,
@@ -396,6 +408,30 @@
 			path = TransitionHorizontal;
 			sourceTree = "<group>";
 		};
+		D3BDF9302A6018E20057D882 /* TransitionFadeAndSlide */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9312A6018FB0057D882 /* FadeAndSlideTransition.swift */,
+			);
+			path = TransitionFadeAndSlide;
+			sourceTree = "<group>";
+		};
+		D3BDF9342A6019420057D882 /* TransitionScale-2 */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9352A6019750057D882 /* ScaleV2Transition.swift */,
+			);
+			path = "TransitionScale-2";
+			sourceTree = "<group>";
+		};
+		D3BDF9382A60198D0057D882 /* TransitionCombinedV2 */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9392A6019A50057D882 /* CombinedV2Transition.swift */,
+			);
+			path = TransitionCombinedV2;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -529,12 +565,14 @@
 				D3BDF8F92A5F03D30057D882 /* MovingObjects.swift in Sources */,
 				D3BDF90D2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */,
 				D3BDF8F52A5F03960057D882 /* ScrollAnimation.swift in Sources */,
+				D3BDF9322A6018FB0057D882 /* FadeAndSlideTransition.swift in Sources */,
 				D3BDF8F12A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F262A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3BDF9162A6009BB0057D882 /* EliminateFromList.swift in Sources */,
 				D3BDF8ED2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41EF52A5C1CE700E314D9 /* ContentView.swift in Sources */,
 				D3BDF92A2A6016400057D882 /* DegradadoTransition.swift in Sources */,
+				D3BDF9362A6019750057D882 /* ScaleV2Transition.swift in Sources */,
 				D3BDF91E2A6010450057D882 /* ListSlidingOpacity.swift in Sources */,
 				D3BDF8FD2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF9122A5FFD720057D882 /* Movingeffect.swift in Sources */,
@@ -549,6 +587,7 @@
 				D3BDF8E62A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41EF32A5C1CE700E314D9 /* designsPracticeApp.swift in Sources */,
 				D3BDF9262A6015EC0057D882 /* ScaleTransition.swift in Sources */,
+				D3BDF93A2A6019A50057D882 /* CombinedV2Transition.swift in Sources */,
 				D3B41F1E2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 				D3BDF92E2A6016BD0057D882 /* HorizontalTransitionTransition.swift in Sources */,
 			);
@@ -570,12 +609,14 @@
 				D3BDF8FA2A5F03D30057D882 /* MovingObjects.swift in Sources */,
 				D3BDF90E2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */,
 				D3BDF8F62A5F03960057D882 /* ScrollAnimation.swift in Sources */,
+				D3BDF9332A6018FB0057D882 /* FadeAndSlideTransition.swift in Sources */,
 				D3BDF8F22A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F282A5C65F000E314D9 /* CircularProgress.swift in Sources */,
 				D3BDF9172A6009BB0057D882 /* EliminateFromList.swift in Sources */,
 				D3BDF8EE2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41F0E2A5C1CE800E314D9 /* designsPracticeUITests.swift in Sources */,
 				D3BDF92B2A6016400057D882 /* DegradadoTransition.swift in Sources */,
+				D3BDF9372A6019750057D882 /* ScaleV2Transition.swift in Sources */,
 				D3BDF91F2A6010450057D882 /* ListSlidingOpacity.swift in Sources */,
 				D3BDF8FE2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF9132A5FFD720057D882 /* Movingeffect.swift in Sources */,
@@ -590,6 +631,7 @@
 				D3BDF8E72A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41F102A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift in Sources */,
 				D3BDF9272A6015EC0057D882 /* ScaleTransition.swift in Sources */,
+				D3BDF93B2A6019A50057D882 /* CombinedV2Transition.swift in Sources */,
 				D3B41F1F2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 				D3BDF92F2A6016BD0057D882 /* HorizontalTransitionTransition.swift in Sources */,
 			);

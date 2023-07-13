@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct HorizontalTransition: View {
+struct CombinedTransition: View {
     @State private var isShowingDetails = false
 
     var body: some View {
@@ -33,6 +33,6 @@ struct HorizontalTransition: View {
 
 struct CombinedTransition_Previews: PreviewProvider {
     static var previews: some View {
-        HorizontalTransition()
+        CombinedTransition()
     }
 }
