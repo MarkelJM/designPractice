@@ -43,6 +43,8 @@
 		D3BDF9062A5F1D2A0057D882 /* BouncingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9042A5F1D2A0057D882 /* BouncingEffect.swift */; };
 		D3BDF9092A5F1D7C0057D882 /* RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9082A5F1D7C0057D882 /* RotationEffect.swift */; };
 		D3BDF90A2A5F1D7C0057D882 /* RotationEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9082A5F1D7C0057D882 /* RotationEffect.swift */; };
+		D3BDF90D2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */; };
+		D3BDF90E2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,6 +89,7 @@
 		D3BDF9002A5F1C8A0057D882 /* ProgressCircleAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressCircleAnimation.swift; sourceTree = "<group>"; };
 		D3BDF9042A5F1D2A0057D882 /* BouncingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BouncingEffect.swift; sourceTree = "<group>"; };
 		D3BDF9082A5F1D7C0057D882 /* RotationEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationEffect.swift; sourceTree = "<group>"; };
+		D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorChangingEffect.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,6 +140,7 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF90B2A5FFA2B0057D882 /* ColorChangeShape */,
 				D3BDF9072A5F1D650057D882 /* RotationEffect */,
 				D3BDF9032A5F1D0C0057D882 /* AumentarDisminuirEfecto */,
 				D3BDF8FF2A5F1C720057D882 /* ProgressCircle */,
@@ -288,6 +292,14 @@
 			path = RotationEffect;
 			sourceTree = "<group>";
 		};
+		D3BDF90B2A5FFA2B0057D882 /* ColorChangeShape */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF90C2A5FFC9B0057D882 /* ColorChangingEffect.swift */,
+			);
+			path = ColorChangeShape;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -419,6 +431,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BDF8F92A5F03D30057D882 /* MovingObjects.swift in Sources */,
+				D3BDF90D2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */,
 				D3BDF8F52A5F03960057D882 /* ScrollAnimation.swift in Sources */,
 				D3BDF8F12A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F262A5C65F000E314D9 /* CircularProgress.swift in Sources */,
@@ -451,6 +464,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D3BDF8FA2A5F03D30057D882 /* MovingObjects.swift in Sources */,
+				D3BDF90E2A5FFC9B0057D882 /* ColorChangingEffect.swift in Sources */,
 				D3BDF8F62A5F03960057D882 /* ScrollAnimation.swift in Sources */,
 				D3BDF8F22A5F031E0057D882 /* TextAppearAnimation.swift in Sources */,
 				D3B41F282A5C65F000E314D9 /* CircularProgress.swift in Sources */,
