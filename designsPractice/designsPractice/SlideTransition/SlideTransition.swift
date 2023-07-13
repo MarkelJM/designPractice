@@ -10,6 +10,10 @@ import SwiftUI
  pulsa encima y veras
  */
  struct SlideInTransition: View {
+    
+     /* @Namespace: En iOS 14 y superior, SwiftUI introdujo un nuevo concepto llamado matchedGeometryEffect que permite a los desarrolladores crear animaciones fluidas donde una vista puede transformarse en otra. Para hacer esto, necesitamos marcar el par de vistas que queremos animar con un Namespace.
+      
+      @Namespace private var namespace crea un namespace que puedes usar para marcar las vistas que deseas animar con matchedGeometryEffect. Al marcar las vistas de inicio y detalles con el mismo namespace, SwiftUI sabe que debe animar la transición entre estas dos vistas*/
     @Namespace private var namespace
     @State private var isDetailVisible = false
 

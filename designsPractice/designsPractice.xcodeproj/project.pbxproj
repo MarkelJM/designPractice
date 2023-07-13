@@ -55,6 +55,8 @@
 		D3BDF91F2A6010450057D882 /* ListSlidingOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */; };
 		D3BDF9222A6013F00057D882 /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9212A6013F00057D882 /* SlideTransition.swift */; };
 		D3BDF9232A6013F00057D882 /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9212A6013F00057D882 /* SlideTransition.swift */; };
+		D3BDF9262A6015EC0057D882 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9252A6015EC0057D882 /* ScaleTransition.swift */; };
+		D3BDF9272A6015EC0057D882 /* ScaleTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9252A6015EC0057D882 /* ScaleTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -105,6 +107,7 @@
 		D3BDF9192A600AE90057D882 /* AddElementInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddElementInList.swift; sourceTree = "<group>"; };
 		D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSlidingOpacity.swift; sourceTree = "<group>"; };
 		D3BDF9212A6013F00057D882 /* SlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransition.swift; sourceTree = "<group>"; };
+		D3BDF9252A6015EC0057D882 /* ScaleTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScaleTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -155,6 +158,7 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF9242A6015D10057D882 /* TransitionScale */,
 				D3BDF9202A6013DF0057D882 /* SlideTransition */,
 				D3BDF91C2A6010290057D882 /* ListOpacity */,
 				D3BDF9182A600ACD0057D882 /* AddElementInList */,
@@ -360,6 +364,14 @@
 			path = SlideTransition;
 			sourceTree = "<group>";
 		};
+		D3BDF9242A6015D10057D882 /* TransitionScale */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9252A6015EC0057D882 /* ScaleTransition.swift */,
+			);
+			path = TransitionScale;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -511,6 +523,7 @@
 				D3BDF9092A5F1D7C0057D882 /* RotationEffect.swift in Sources */,
 				D3BDF8E62A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41EF32A5C1CE700E314D9 /* designsPracticeApp.swift in Sources */,
+				D3BDF9262A6015EC0057D882 /* ScaleTransition.swift in Sources */,
 				D3B41F1E2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -549,6 +562,7 @@
 				D3BDF90A2A5F1D7C0057D882 /* RotationEffect.swift in Sources */,
 				D3BDF8E72A5F01FD0057D882 /* FlipCardView.swift in Sources */,
 				D3B41F102A5C1CE800E314D9 /* designsPracticeUITestsLaunchTests.swift in Sources */,
+				D3BDF9272A6015EC0057D882 /* ScaleTransition.swift in Sources */,
 				D3B41F1F2A5C1D6800E314D9 /* DragGesture.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
