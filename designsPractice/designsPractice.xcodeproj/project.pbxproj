@@ -51,6 +51,10 @@
 		D3BDF9172A6009BB0057D882 /* EliminateFromList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9152A6009BB0057D882 /* EliminateFromList.swift */; };
 		D3BDF91A2A600AE90057D882 /* AddElementInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9192A600AE90057D882 /* AddElementInList.swift */; };
 		D3BDF91B2A600AE90057D882 /* AddElementInList.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9192A600AE90057D882 /* AddElementInList.swift */; };
+		D3BDF91E2A6010450057D882 /* ListSlidingOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */; };
+		D3BDF91F2A6010450057D882 /* ListSlidingOpacity.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */; };
+		D3BDF9222A6013F00057D882 /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9212A6013F00057D882 /* SlideTransition.swift */; };
+		D3BDF9232A6013F00057D882 /* SlideTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3BDF9212A6013F00057D882 /* SlideTransition.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -99,6 +103,8 @@
 		D3BDF9112A5FFD720057D882 /* Movingeffect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Movingeffect.swift; sourceTree = "<group>"; };
 		D3BDF9152A6009BB0057D882 /* EliminateFromList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EliminateFromList.swift; sourceTree = "<group>"; };
 		D3BDF9192A600AE90057D882 /* AddElementInList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddElementInList.swift; sourceTree = "<group>"; };
+		D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListSlidingOpacity.swift; sourceTree = "<group>"; };
+		D3BDF9212A6013F00057D882 /* SlideTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideTransition.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +155,8 @@
 		D3B41EF12A5C1CE700E314D9 /* designsPractice */ = {
 			isa = PBXGroup;
 			children = (
+				D3BDF9202A6013DF0057D882 /* SlideTransition */,
+				D3BDF91C2A6010290057D882 /* ListOpacity */,
 				D3BDF9182A600ACD0057D882 /* AddElementInList */,
 				D3BDF9142A60096E0057D882 /* EliminateFromList */,
 				D3BDF9102A5FFD5F0057D882 /* MovingEffect */,
@@ -336,6 +344,22 @@
 			path = AddElementInList;
 			sourceTree = "<group>";
 		};
+		D3BDF91C2A6010290057D882 /* ListOpacity */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF91D2A6010450057D882 /* ListSlidingOpacity.swift */,
+			);
+			path = ListOpacity;
+			sourceTree = "<group>";
+		};
+		D3BDF9202A6013DF0057D882 /* SlideTransition */ = {
+			isa = PBXGroup;
+			children = (
+				D3BDF9212A6013F00057D882 /* SlideTransition.swift */,
+			);
+			path = SlideTransition;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -474,9 +498,11 @@
 				D3BDF9162A6009BB0057D882 /* EliminateFromList.swift in Sources */,
 				D3BDF8ED2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41EF52A5C1CE700E314D9 /* ContentView.swift in Sources */,
+				D3BDF91E2A6010450057D882 /* ListSlidingOpacity.swift in Sources */,
 				D3BDF8FD2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF9122A5FFD720057D882 /* Movingeffect.swift in Sources */,
 				D3BDF8E22A5F01C00057D882 /* Shake.swift in Sources */,
+				D3BDF9222A6013F00057D882 /* SlideTransition.swift in Sources */,
 				D3BDF91A2A600AE90057D882 /* AddElementInList.swift in Sources */,
 				D3B41F222A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3BDF9012A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
@@ -510,9 +536,11 @@
 				D3BDF9172A6009BB0057D882 /* EliminateFromList.swift in Sources */,
 				D3BDF8EE2A5F02C40057D882 /* ProgressBarView.swift in Sources */,
 				D3B41F0E2A5C1CE800E314D9 /* designsPracticeUITests.swift in Sources */,
+				D3BDF91F2A6010450057D882 /* ListSlidingOpacity.swift in Sources */,
 				D3BDF8FE2A5F1BA50057D882 /* EscalarAnimation.swift in Sources */,
 				D3BDF9132A5FFD720057D882 /* Movingeffect.swift in Sources */,
 				D3BDF8E32A5F01C00057D882 /* Shake.swift in Sources */,
+				D3BDF9232A6013F00057D882 /* SlideTransition.swift in Sources */,
 				D3BDF91B2A600AE90057D882 /* AddElementInList.swift in Sources */,
 				D3B41F232A5C63DD00E314D9 /* Rotation.swift in Sources */,
 				D3BDF9022A5F1C8A0057D882 /* ProgressCircleAnimation.swift in Sources */,
